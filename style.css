@@ -1,0 +1,327 @@
+.img{
+    height: 45px;
+    width: 34px;
+}
+.navbar{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    margin-top: 12px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    font-weight: bolder;
+}
+.text{
+    float: right;
+}
+.blue:hover{
+    background-color: blue;
+    border: 2px solid blue;
+    border-radius: 8px;
+}
+/* .search{
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    border:2px solid black;
+    border-radius: 12px;
+    outline: none;
+    height: 52px;
+    display: block;
+    margin : 0 auto;
+    margin-top: 12px;
+} */
+.input-icons input{
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+    border:2px solid black;
+    border-radius: 12px;
+    outline: none;
+    height: 52px;
+    display: block;
+    margin : 0 auto;
+    margin-top: 12px;
+}
+.input-icons img{
+    position: absolute;
+    left: 325px;
+    top: 102px;
+}
+/* mid-section */
+.container img{
+    /* width: 956px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 52px;
+    height: 398px;
+}
+.container p{
+    position: absolute;
+    top: 522px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    left: 732px;
+}
+.content{
+    position: absolute; 
+  background: rgba(0, 0, 0, 0.705);
+    height: 398px;
+    margin: 0 auto;
+    width: 73%;
+    text-align: center;
+    color: white;
+}
+.content h1{
+    position: absolute;
+   top: 170px;
+   left: 0;
+   width: 100%;
+   /* margin: 0 auto; */
+   /* width: 300px; */
+   /* height: 50px; */
+   right: 12px;
+}
+.content p{
+    position: absolute;
+   top: 220px;
+   left: 0;
+   width: 100%;
+   right: 12px;
+}
+.btn{
+    background-color: white;
+    font-weight: bolder;
+    position: absolute;
+    right: 12px;
+    bottom: 12px;
+}
+.content1{
+    position: absolute; 
+  /* background: rgba(0, 0, 0, 0.705); */
+    height: 398px;
+    margin: 0 auto;
+    width: 73%;
+    text-align: center;
+    color: white;
+}
+.content1 p{
+    position: absolute;
+   top: 320px;
+   left: 0;
+   width: 100%;
+   right: 12px;
+   color: white;
+}
+/* Team section */
+.team{
+    /* border: 2px solid red; */
+    background-color: rgba(128, 128, 128, 0.548);
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    margin-top: 12px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    align-items: center;
+}
+.team a{
+    color: gray;
+    padding: 50px;
+margin: 42px;
+}
+.sec{
+    display: none;
+}
+.sec h1{
+    text-align: center;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    margin-top: 12px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin: 0 auto;
+    display: block;
+  }
+.imageBtn img{
+    height: 32px;
+    width: 89px;
+    outline: none;
+    /* border: 2px solid gray; */
+    border: none;
+    outline: 0 !important;
+    cursor: pointer;
+
+}
+.imageBtn{
+    outline: none;
+    border: none; 
+}
+
+.loc1{
+    position: absolute;
+    top: 1650px;
+    left: 102px;
+}
+.loc2{
+    position: absolute;
+    top: 1650px;
+    right: 102px;
+}
+/* Progress bar */
+.progress{
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+    margin-top: 12px;
+}
+.proBtn{
+    border: 2px solid white;
+    border-radius: 4px;
+    position: absolute;
+    right: 150px;
+    margin-top: -20px;
+    width: 225px;
+    background-color:white;
+    /* height: 83px; */
+}
+
+.proBtn img{
+    width: 80%;
+    /* height: 100%; */
+}
+
+/* wicket keeper section */
+.section1{
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+}
+/* Float four columns side by side */
+.column1 {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row1 {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column1 {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    width: 370px;
+  }
+  .row1{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+  }
+  .card1{
+      height: 513px;
+  }
+  .row2{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+  }
+  .card2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    height: 163px;
+  }
+  .row3{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+  }
+  .card3{
+      margin-top: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    height: 163px;
+  }
+  .row4{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+  }
+  .card4{
+      margin-top: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    height: 163px;
+  }
+  .row5{
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+  }
+  .card5{
+      margin-top: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    height: 203px;
+  }
+
+  .progress p{
+      color: black;
+      font-weight: bolder;
+  }
